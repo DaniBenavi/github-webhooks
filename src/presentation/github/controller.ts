@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { GithubServices } from '../services/github.services';
 import { DiscordService } from '../services/discord.service';
+import { GithubServices } from '../services/github.services';
 
 export class GithubController {
   //injecting the GithubServices class into the controller
